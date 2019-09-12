@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8453296-4650-4eca-8e4c-470fcc8751f2" name="Default Changelist" comment="" />
+    <list default="true" id="f8453296-4650-4eca-8e4c-470fcc8751f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/article/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/article/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/EntertainmentChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/OtherChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/SportsChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/database/ArticleDataAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/sender/ArticleDistributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/msalihkocak/articles/ArticleDistributorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msalihkocak/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/wordcounter/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/msalihkocak/WordCountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/msalihkocak/wordcounter/WordCountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/msalihkocak/WordCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/msalihkocak/WordCountTests.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +33,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/msalihkocak/WordCountTests.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/sender/ArticleDistributor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="261">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/WordCounter.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/msalihkocak/articles/ArticleDistributorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-225">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -55,17 +59,36 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/WordCountUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/WordCounter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/msalihkocak/WordCountTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/msalihkocak/wordcounter/WordCountTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/article/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/wordcounter/Article.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/msalihkocak/articles/ArticleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/Type.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/Channel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/database/ArticleDataAccess.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/SportsChannel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/EntertainmentChannel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/OtherChannel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/sender/ArticleDistributor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/msalihkocak/articles/ArticleDistributorTest.java" />
       </list>
     </option>
   </component>
@@ -81,6 +104,9 @@
     <option name="y" value="373" />
     <option name="width" value="1440" />
     <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -126,6 +152,25 @@
               <item name="WordCount" type="b2602c69:ProjectViewProjectNode" />
               <item name="WordCount" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msalihkocak" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordCount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordCount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msalihkocak" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordCount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordCount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -143,14 +188,42 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="msalihkocak" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WordCount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordCount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msalihkocak" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/msalihkocak" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.msalihkocak.articles" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.msalihkocak.wordcounter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/msalihkocak" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.msalihkocak.articles" />
       <recent name="com.msalihkocak" />
     </key>
   </component>
@@ -166,17 +239,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ArticleDistributorTest">
+    <configuration name="ArticleDistributorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WordCount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msalihkocak.articles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msalihkocak.articles" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.articles.ArticleDistributorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCountTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msalihkocak.*" />
+          <option name="PATTERN" value="com.msalihkocak.articles.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msalihkocak" />
-      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.WordCountTests" />
+      <option name="PACKAGE_NAME" value="com.msalihkocak.article" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.wordcounter.WordCountTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,6 +272,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleDistributorTest" />
         <item itemvalue="JUnit.WordCountTests" />
       </list>
     </recent_temporary>
@@ -202,24 +291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordCountTests - 2019.09.11 at 14h 51m 34s.xml">
-      <configuration name="WordCountTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTests - 2019.09.11 at 14h 53m 33s.xml">
-      <configuration name="WordCountTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTests - 2019.09.11 at 14h 53m 58s.xml">
-      <configuration name="WordCountTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTests - 2019.09.11 at 14h 58m 44s.xml">
-      <configuration name="WordCountTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTests - 2019.09.11 at 15h 16m 56s.xml">
-      <configuration name="WordCountTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTests - 2019.09.11 at 15h 20m 13s.xml">
-      <configuration name="WordCountTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordCountTests - 2019.09.11 at 15h 20m 42s.xml">
       <configuration name="WordCountTests" configurationId="JUnit" />
     </history-entry>
@@ -232,43 +303,53 @@
     <history-entry file="WordCountTests - 2019.09.11 at 15h 24m 06s.xml">
       <configuration name="WordCountTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WordCountTests - 2019.09.11 at 16h 54m 00s.xml">
+      <configuration name="WordCountTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordCountTests - 2019.09.12 at 09h 52m 43s.xml">
+      <configuration name="WordCountTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleDistributorTest - 2019.09.12 at 09h 52m 53s.xml">
+      <configuration name="ArticleDistributorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleDistributorTest - 2019.09.12 at 09h 52m 55s.xml">
+      <configuration name="ArticleDistributorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleDistributorTest - 2019.09.12 at 10h 06m 52s.xml">
+      <configuration name="ArticleDistributorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleDistributorTest - 2019.09.12 at 10h 08m 37s.xml">
+      <configuration name="ArticleDistributorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3291536" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3291536" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -291,10 +372,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/WordCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/msalihkocak/wordcounter/WordCountTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="270">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/wordcounter/WordCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
@@ -309,15 +402,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/msalihkocak/WordCountTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/article/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/article/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/database/ArticleDataAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/SportsChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/EntertainmentChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/client/OtherChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msalihkocak/articles/sender/ArticleDistributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/msalihkocak/articles/ArticleDistributorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>

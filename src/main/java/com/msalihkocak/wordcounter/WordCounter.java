@@ -1,4 +1,4 @@
-package com.msalihkocak;
+package com.msalihkocak.wordcounter;
 
 import java.util.Arrays;
 import java.util.Locale;

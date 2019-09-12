@@ -1,4 +1,4 @@
-package com.msalihkocak;
+package com.msalihkocak.wordcounter;
 
 import org.junit.Before;
 import org.junit.Test;
