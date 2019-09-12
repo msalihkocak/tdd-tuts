@@ -1,5 +1,7 @@
-package com.msalihkocak.rectangle;
+package com.msalihkocak.assertions;
 
+import com.msalihkocak.rectangle.Rectangle;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static java.util.Arrays.asList;
@@ -42,6 +44,7 @@ public class AssertionExamplesTest {
         assertEquals(16, new Rectangle(2,8).getArea());
     }
 
+    @Ignore("This is here to show failure")
     @Test
     public void tryAssertEqualsWithStrings(){
         // This will fail
@@ -77,6 +80,7 @@ public class AssertionExamplesTest {
         assertEquals(example1, example2SameValuesWith1);
     }
 
+    @Ignore("This is meant to fail")
     @Test
     public void tryAssertFail(){
         // This will fail
