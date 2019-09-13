@@ -6,10 +6,17 @@ import org.junit.rules.ExpectedException;
 
 import java.io.IOException;
 
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+
 public class AssertExceptionTest {
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
+
+    @Test
+    public void willThrowThrows(){
+        assertThatThrownBy(() -> willThrow()).isInstanceOf(IOException.class).hasMessage("Bang");
+    }
 
     @Test
     public void willThrowError() throws Exception{
