@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8453296-4650-4eca-8e4c-470fcc8751f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/mockitodepth/SomeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/msalihkocak/mockitodepth/MockitoExamplesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid18530" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid29958" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid4178" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid5474" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springtesting/CountingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springtesting/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springtesting/configuration/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/service/AddressDeleter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/service/AddressRetriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/service/AddressStorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/msalihkocak/springtesting/CountingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/msalihkocak/springweb/controller/AddressBookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/WordCount.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/WordCount.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/msalihkocak/date/DateUtilJUnitParamsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/msalihkocak/date/DateUtilJUnitParamsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -50,11 +51,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/msalihkocak/date" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/msalihkocak" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.msalihkocak.springweb.controller" />
+      <recent name="com.msalihkocak.springtesting" />
       <recent name="com.msalihkocak.rectangle" />
       <recent name="com.msalihkocak.articles" />
     </key>
@@ -69,11 +72,12 @@
       <recent name="com.msalihkocak.assertions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/msalihkocak" />
       <recent name="$PROJECT_DIR$/src/test/java/com/msalihkocak/date" />
       <recent name="$PROJECT_DIR$/src/main/java/com/msalihkocak" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/msalihkocak" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.msalihkocak.springweb.service" />
       <recent name="com.msalihkocak.articles" />
       <recent name="com.msalihkocak" />
     </key>
@@ -90,82 +94,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MockitoExamplesTest.mockPredicate">
-    <configuration name="MockitoExamplesTest.bddMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AddressBookTest.afterAddingAndAddressItCanBeDeleted">
+    <configuration name="AddressBookTest.afterAddingAddressItCanBeFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msalihkocak.mockitodepth.*" />
+          <option name="PATTERN" value="com.msalihkocak.springweb.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msalihkocak.mockitodepth" />
-      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.mockitodepth.MockitoExamplesTest" />
-      <option name="METHOD_NAME" value="bddMockito" />
+      <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
+      <option name="METHOD_NAME" value="afterAddingAddressItCanBeFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockitoExamplesTest.mockPredicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddressBookTest.afterAddingAndAddressItCanBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msalihkocak.mockitodepth.*" />
+          <option name="PATTERN" value="com.msalihkocak.springweb.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msalihkocak.mockitodepth" />
-      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.mockitodepth.MockitoExamplesTest" />
-      <option name="METHOD_NAME" value="mockPredicate" />
+      <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
+      <option name="METHOD_NAME" value="afterAddingAndAddressItCanBeDeleted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockitoExamplesTest.spying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddressBookTest.unknownIsNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msalihkocak.mockitodepth.*" />
+          <option name="PATTERN" value="com.msalihkocak.springweb.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msalihkocak.mockitodepth" />
-      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.mockitodepth.MockitoExamplesTest" />
-      <option name="METHOD_NAME" value="spying" />
+      <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
+      <option name="METHOD_NAME" value="unknownIsNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockitoExamplesTest.thenAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddressBookTest.withKnownPersonAddressIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msalihkocak.mockitodepth.*" />
+          <option name="PATTERN" value="com.msalihkocak.springweb.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msalihkocak.mockitodepth" />
-      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.mockitodepth.MockitoExamplesTest" />
-      <option name="METHOD_NAME" value="thenAnswer" />
+      <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
+      <option name="METHOD_NAME" value="withKnownPersonAddressIsCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockitoExamplesTest.whenWhenIsNotEnough" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddressBookTest.withKnownPersonAddressIsFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msalihkocak.mockitodepth.*" />
+          <option name="PATTERN" value="com.msalihkocak.springweb.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msalihkocak.mockitodepth" />
-      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.mockitodepth.MockitoExamplesTest" />
-      <option name="METHOD_NAME" value="whenWhenIsNotEnough" />
+      <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
+      <option name="METHOD_NAME" value="withKnownPersonAddressIsFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockitoExamplesTest.mockPredicate" />
-        <item itemvalue="JUnit.MockitoExamplesTest.whenWhenIsNotEnough" />
-        <item itemvalue="JUnit.MockitoExamplesTest.bddMockito" />
-        <item itemvalue="JUnit.MockitoExamplesTest.spying" />
-        <item itemvalue="JUnit.MockitoExamplesTest.thenAnswer" />
+        <item itemvalue="JUnit.AddressBookTest.afterAddingAndAddressItCanBeDeleted" />
+        <item itemvalue="JUnit.AddressBookTest.withKnownPersonAddressIsCorrect" />
+        <item itemvalue="JUnit.AddressBookTest.withKnownPersonAddressIsFound" />
+        <item itemvalue="JUnit.AddressBookTest.unknownIsNotFound" />
+        <item itemvalue="JUnit.AddressBookTest.afterAddingAddressItCanBeFound" />
       </list>
     </recent_temporary>
   </component>
