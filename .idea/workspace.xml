@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8453296-4650-4eca-8e4c-470fcc8751f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/service/AddressRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/service/AddressRetriever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/service/AddressStorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msalihkocak/springweb/service/AddressStorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/msalihkocak/springweb/controller/AddressBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/msalihkocak/springweb/controller/AddressBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/msalihkocak/springweb/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/msalihkocak/springweb/controller/AddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/msalihkocak/springweb/controller/AddressBookTest$TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/msalihkocak/springweb/controller/AddressBookTest$TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/msalihkocak/springweb/controller/AddressBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/msalihkocak/springweb/controller/AddressBookTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +50,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/msalihkocak" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.catalog" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -58,6 +66,7 @@
       <recent name="com.msalihkocak.wordcounter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msalihkocak.springweb.config" />
       <recent name="com.msalihkocak.date" />
       <recent name="com.msalihkocak.assertions" />
     </key>
@@ -84,7 +93,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddressBookTest.afterAddingAndAddressItCanBeDeleted">
+  <component name="RunManager" selected="JUnit.AddressBookTest">
+    <configuration name="AddressBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WordCount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msalihkocak.springweb.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddressBookTest.afterAddingAddressItCanBeFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
@@ -117,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddressBookTest.unknownIsNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddressBookTest.withAddedPersonAddressIsFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +151,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
       <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
-      <option name="METHOD_NAME" value="unknownIsNotFound" />
+      <option name="METHOD_NAME" value="withAddedPersonAddressIsFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,29 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddressBookTest.withKnownPersonAddressIsFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WordCount" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msalihkocak.springweb.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.msalihkocak.springweb.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.msalihkocak.springweb.controller.AddressBookTest" />
-      <option name="METHOD_NAME" value="withKnownPersonAddressIsFound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddressBookTest" />
         <item itemvalue="JUnit.AddressBookTest.afterAddingAndAddressItCanBeDeleted" />
-        <item itemvalue="JUnit.AddressBookTest.withKnownPersonAddressIsCorrect" />
-        <item itemvalue="JUnit.AddressBookTest.withKnownPersonAddressIsFound" />
-        <item itemvalue="JUnit.AddressBookTest.unknownIsNotFound" />
         <item itemvalue="JUnit.AddressBookTest.afterAddingAddressItCanBeFound" />
+        <item itemvalue="JUnit.AddressBookTest.withKnownPersonAddressIsCorrect" />
+        <item itemvalue="JUnit.AddressBookTest.withAddedPersonAddressIsFound" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +201,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

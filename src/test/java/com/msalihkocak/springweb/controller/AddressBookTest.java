@@ -1,6 +1,7 @@
 package com.msalihkocak.springweb.controller;
 
-import com.msalihkocak.springtesting.configuration.Config;
+
+import com.msalihkocak.springweb.config.Config;
 import com.msalihkocak.springweb.service.AddressDeleter;
 import com.msalihkocak.springweb.service.AddressRetriever;
 import com.msalihkocak.springweb.service.AddressStorer;
@@ -37,7 +38,11 @@ public class AddressBookTest {
     @Configuration
     @ComponentScan(basePackageClasses = Config.class)
     public static class TestConfig{
-        private Map<String, String> addresses = new HashMap<>();
+        private Map<String, String> addresses = new HashMap<String, String>(){
+            {
+                put("John", "221B Baker St.");
+            }
+        };
 
         @Bean
         public AddressRetriever retriever(){
@@ -70,13 +75,17 @@ public class AddressBookTest {
 
     @Test
     public void unknownIsNotFound() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.get("address/Tom Cruise")).andExpect(status().isNotFound());
+        mockMvc.perform(MockMvcRequestBuilders.get("/address/Tom")).andExpect(status().isNotFound());
     }
 
     @Test
     public void withKnownPersonAddressIsFound() throws Exception{
-        storer.storeAddress("Harold", "1 King Place");
+        mockMvc.perform(MockMvcRequestBuilders.get("/address/John")).andExpect(status().isOk());
+    }
 
+    @Test
+    public void withAddedPersonAddressIsFound() throws Exception{
+        storer.storeAddress("Harold", "1 King Place");
         mockMvc.perform(MockMvcRequestBuilders.get("/address/Harold")).andExpect(status().isOk());
     }
 
